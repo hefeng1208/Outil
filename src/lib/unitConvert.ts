@@ -14,7 +14,7 @@ export function byByteConvertUnit(
       return `${bytes} B`
     }
     const i = Math.floor(Math.log(bytes) / Math.log(unit))
-    return (bytes / Math.pow(unit, i)).toFixed(fractionDigits) + ' ' + sizes[i]
+    return (bytes / Math.pow(unit, i)).toFixed(fractionDigits) + sizes[i]
   } else {
     return '-'
   }

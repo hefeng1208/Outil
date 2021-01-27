@@ -1,7 +1,7 @@
 {
-  "name": "outil",
-  "version": "0.0.1",
-  "description": "",
+  "name": "xtoolkits",
+  "version": "0.0.0",
+  "description": "This is a collection of commonly used tools",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -12,9 +12,21 @@
     "commit": "git-cz",
     "version": "conventional-changelog -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hefeng1208/xtoolkits.git"
+  },
+  "keywords": [
+    "uitl",
+    "tool",
+    "timestamp",
+    "unit",
+    "convert unit",
+    "log",
+    "console"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
