@@ -1,6 +1,6 @@
 {
   "name": "xtoolkits",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is a collection of commonly used tools",
   "main": "dist/index.js",
   "files": [
